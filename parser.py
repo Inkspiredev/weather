@@ -128,16 +128,12 @@ class UltraParser:
         if final_list:
             content = "\n".join(final_list)
             
-            # Сохраняем обычный текст (без .txt в имени)
-            with open("subscription", "w", encoding="utf-8") as f:
+            # Сохраняем только subscription.txt
+            with open("subscription.txt", "w", encoding="utf-8") as f:
                 f.write(content)
             
-            # Base64 (без .txt в имени файла)
-            b64_content = base64.b64encode(content.encode("utf-8")).decode("utf-8")
-            with open("subscription_b64", "w", encoding="utf-8") as f:
-                f.write(b64_content)
-            
-            print(f"✅ OneMeTeam готово! Собрано: {len(final_list)}/{MAX_SERVERS} (максимум)")
+            print(f"✅ OneMeTeam готово! Собрано: {len(final_list)}/{MAX_SERVERS} серверов")
+            print(f"📁 Файл сохранён: subscription.txt")
         else:
             print("❌ Не удалось собрать конфиги")
 
