@@ -1,10 +1,11 @@
 name: Update Subscription Links
 
 on:
+  push:
+    branches: [ main, anoniminks-patch-1 ]
   schedule:
-    # Запуск каждые 6 часов
     - cron: "0 */6 * * *"
-  workflow_dispatch:  # Ручной запуск
+  workflow_dispatch:
 
 permissions:
   contents: write
