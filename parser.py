@@ -9,8 +9,8 @@ from datetime import datetime
 # ТВОИ SOURCES 🛰️
 # ==========================================
 SOURCES = [
-    "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-all.txt",
-    "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt",
+    "http://potato.sunlight.mooo.com:8080?url=https://connliberty.com/connection/subs/d8849138-1a7d-4b77-b380-89ef96d59a5c",
+    "http://potato.sunlight.mooo.com:8080?url=https://key.prosvet.best/sub?token=1789657518",
     "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS-all_RUS.txt",
     "https://raw.githubusercontent.com/RKPChannel/RKP_bypass_configs/refs/heads/main/configs/url_work.txt",
     "https://raw.githubusercontent.com/ilyacom41k/free-v2ray-2026/refs/heads/main/subscriptions/FreeCFGHub1.txt",
